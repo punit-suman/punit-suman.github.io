@@ -4,4 +4,59 @@ padding:0;
 }
 body{
 	text-align:center;
+	margin:0 auto;
+}
+.head{
+	height:50px;
+	width:100%;
+	background-color:#E5ADAD;
+}
+ul{
+	list-style:none;
+	min-width:600px;
+}
+.headlist li{
+	display:inline-block;
+	font-size:110%;
+	line-height:50px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.headlist li a{
+	display:block;
+	height:50px;
+	width:100px;
+	text-decoration:none;
+	color:black;
+	border-radius:5px;
+}
+.headlist li a:hover{
+	background-color:#E28E8E;
+	transition:all 0.3s;
+}
+.opened{
+	background-color:#E28E8E;
+}
+.content{
+	position:absolute;
+	top:100px;
+	width:100%;
+	border:thin black solid;
+	margin:0 auto;
+}
+.imagediv{
+	
+}
+.imagediv img{
+	border-radius:25%;
+	box-shadow:1px 1px 3px black;
+	cursor:pointer;
+	transition:all 0.3s;
+}
+.contactdetails{
+	margin: 10px auto;
+	width:700px;
+	border:thin black solid;
+}
+.social li{
+	display:inline-block;
 }
