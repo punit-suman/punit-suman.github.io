@@ -9,7 +9,7 @@ body{
 .head{
 	height:50px;
 	width:100%;
-	background-color:#E5ADAD;
+	background-color:#E5ADAD;position:absolute;top:0;
 }
 ul{
 	list-style:none;
@@ -36,12 +36,13 @@ ul{
 .opened{
 	background-color:#E28E8E;
 }
-.content{
-	position:absolute;
-	top:100px;
+.content-cont{
+
 	width:100%;
-	border:thin black solid;
-	margin:0 auto;
+	margin:80px auto 0 auto;
+}
+.content{
+		margin:30px auto;border:thin #8A8A8A solid; width:500px;height:450px;padding:25px 25px 40px 25px;box-shadow:1px 1px 5px black;
 }
 .imagediv{
 	
@@ -52,6 +53,12 @@ ul{
 	cursor:pointer;
 	transition:all 0.3s;
 }
+.quote{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:20px;
+	font-variant: small-caps;
+	font-style:italic;
+}
 .contactdetails{
 	margin: 10px auto;
 	width:700px;
@@ -59,4 +66,21 @@ ul{
 }
 .social li{
 	display:inline-block;
+}
+.edutop{
+	font-family:'Comic Sans MS', cursive, sans-serif;
+	font-size:25px;
+	font-weight:bold;
+	color:#954141;
+}
+.edu{
+	font-size:20px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	color:#555555;
+}
+.edu1{
+	color:#4D3535;
+}
+.foot{
+	background-color:#E28E8E;height:40px;bottom:0;right:0;position:absolute;width:20%;line-height:40px;font-size:18px;
 }
